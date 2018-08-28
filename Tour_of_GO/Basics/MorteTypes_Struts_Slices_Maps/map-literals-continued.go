@@ -5,10 +5,10 @@ type Vertex struct {
 }
 
 var m = map[string]Vertex{
-	"Bell Labs" : Vertex{
+	"Bell Labs" : {
 		32.32423, -43.32432,
 	},
-	"Google" : Vertex{
+	"Google" : {
 		39.32423, -100.32432,
 	}
 }
